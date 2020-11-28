@@ -123,7 +123,7 @@ function blinkRandomCubes(n) {
     const blink = async () => {
         await asyncForEach(sel_cubes, async (cube_name) => {
             var cube = scene.getObjectByName(cube_name);
-            console.log(cube.name);
+            // console.log(cube.name);
             await waitFor(time_between);
             cube.material = new THREE.MeshBasicMaterial({
                 color: 0xff0000
