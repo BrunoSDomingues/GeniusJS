@@ -1,3 +1,3 @@
 # GeniusJS
 
-Simple Genius game: Click on the cubes shown!
+An implementation of the Genius game using three.js
